@@ -55,7 +55,7 @@ public class driverFactory {
 		}
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
-		getDriver().get(prop.getProperty("url").trim());
+		getDriver().get(prop.getProperty("url"));
 		return getDriver();
 
 	}
