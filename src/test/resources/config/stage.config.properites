@@ -1,0 +1,11 @@
+browser=chrome
+url= https://naveenautomationlabs.com/opencart/index.php?route=account/login 
+
+
+incognito= false
+headless= false
+
+highlight= true
+
+username= rai793966@gmail.com
+password= shwetarai

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Regression Suite" verbose="4" thread-count="4" parallel="tests">
+<listeners>
+    <listener class-name="com.qa.openCart.ExtentReportListener.ExtentReportListener"/>
+    <listener class-name="com.qa.openCart.ExtentReportListener.TestAllureListener"/>
+        <listener class-name="com.qa.openCart.ExtentReportListener.AnnotationTransformer"/>
+    
+    <!-- Add more listener elements if needed -->
+</listeners>
+
+<test name="Login Page Test">
+<classes>
+			<class name="openCart.Tests.loginPageTest" />
+		</classes>
+	</test>
+	
+	<test name="Account Page Test">
+<classes>
+			<class name="openCart.Tests.accountPageTest" />
+		</classes>
+	</test>
+	<test name="Product info Page Test">
+<classes>
+			<class name="openCart.Tests.ProductInfoTest" />
+		</classes>
+	</test>
+	<test name="Registration Page Test">
+<classes>
+			<class name="openCart.Tests.registraionPageTest" />
+		</classes>
+	</test>
+</suite>
