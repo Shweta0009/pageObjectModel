@@ -1,7 +1,12 @@
 package OpenCart.Pages;
 
-public class CartPage {
+import org.openqa.selenium.By;
 
-	int  count=4;
+public class CartPage {
+	
+private By cart=By.name("cart")	;
+public void cartPge() {
+	System.out.println("adding item to the cart");
+}
 
 }
