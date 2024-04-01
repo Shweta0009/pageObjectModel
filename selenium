@@ -1,0 +1,7 @@
+package OpenCart.Pages;
+
+import org.openqa.selenium.By;
+
+public class CartPage {
+	
+private By cart=By.name("selenium")	;
