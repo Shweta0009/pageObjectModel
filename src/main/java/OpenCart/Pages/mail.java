@@ -3,7 +3,7 @@ package OpenCart.Pages;
 public class mail {
 
 	public void sendMail(){
-System.out.println("sending mail")}
+System.out.println("mail sent")}
 
 
 }
