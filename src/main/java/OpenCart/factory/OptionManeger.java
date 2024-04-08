@@ -19,6 +19,7 @@ public class OptionManeger {
 
 	public ChromeOptions getChromeOptions() {
 		co = new ChromeOptions();
+		co.addArguments("--remote-allow-origin=*");
 		if (Boolean.parseBoolean(prop.getProperty("headless").trim())) {
 			co.addArguments("--headless");
 		}
